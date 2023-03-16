@@ -61,7 +61,7 @@ namespace ITOperatorsTest
         {
             Console.WriteLine("Loading Json...");
             
-            string file = @"c:\temp\cars.json";
+            string file = @"..\..\..\cars.json";
             
             if (File.Exists(file))
             {
